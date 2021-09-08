@@ -1,0 +1,15 @@
+---
+title: "practice_graph"
+author: "Josephine Johannes"
+date: "9/8/2021"
+output: html_document
+---
+#Load Data Here (ChickWeight)
+```{r}
+
+```
+
+#Data Visualization
+```{r}
+
+```
