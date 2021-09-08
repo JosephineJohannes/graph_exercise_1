@@ -7,9 +7,14 @@ output: html_document
 #Load Data Here (ChickWeight)
 ```{r}
 data("ChickWeight")
+head(ChickWeight)
+library(tidyverse)
+str(ChickWeight)
 ```
 
 #Data Visualization
 ```{r}
-
+ChickWeight %>%
+  ggplot(aes(x= Diet, y = weight)) +
+  geom_boxplot()
 ```
